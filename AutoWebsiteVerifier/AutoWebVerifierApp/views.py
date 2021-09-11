@@ -13,8 +13,6 @@ def index(request):
     # return HttpResponse("AutoWeb")
     return render(request, 'index.html')
 
-#filename=""
-
 def VerifyWeb(request):
     if request.method == 'POST':
         uploaded_file = request.FILES['file-upload']
@@ -49,7 +47,7 @@ def VerifyWeb(request):
         print(VerifyWeb.fileurl)
         print("done")
         return render(request, 'Verified.html')
-#fl_path=""
+
 def download(request):
     print("dow")
     filepath= VerifyWeb.fileurl
@@ -58,4 +56,3 @@ def download(request):
     #print(os.path.dirname(filepath))
     return serve(request, os.path.basename(filepath), os.getcwd())
 
-#ff=VerifyWeb.fileurl
