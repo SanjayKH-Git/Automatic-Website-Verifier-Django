@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/styles.css' %}">
+    <title>Verified</title>
+</head>
+
+<body>
+    <div>
+        <div class="header">
+            <h1><b>Automatic Website Verifier</b></h1>
+            <h3>Verify Your Huge WebLinks Collection instantly</h3>
+        </div>
+
+        <div class="container">
+            <h2>Download processed File (.xlsx)</h2>
+            <h4>Columns are Updated</h4>
+           <!-- <button type="submit" value="{{fl_path}}" onclick="location.href='{% url 'download' %}}'">Download</button>-->
+
+            {% block content %}
+            <form method="post" enctype="multipart/form-data" action="download">
+                {% csrf_token %}
+                <button class="submit" type="submit" value="download">Download</button>
+            </form>
+            {% endblock %}
+        </div>
+    </div>
+
+</body>
+
+</html>
