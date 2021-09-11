@@ -1,0 +1,84 @@
+
+body
+{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color:#333333 ;
+    color: #7a1ed6;
+    margin:0;
+    padding: 0;
+}
+.header
+{
+  margin: 5% 5% 5% 5%;
+  padding:1% 1% 1% 1%;
+  height: 5%;
+  text-align: center;
+  border: 2px solid rgb(174, 199, 243);
+  background-color: rgba(97, 96, 96, 0.268);
+  border-radius: 10px;
+  align-items: center;
+}
+
+.container
+{
+  margin: 5% 5% 5% 5%;
+  padding:1% 1% 1% 1%;
+}
+.container .Rules
+{
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  font-weight:bold;
+  color: rgb(77, 5, 59);  
+  background-color: rgb(81, 129, 232);
+  margin: 5% 5% 5% 5%;
+  padding:1% 1% 1% 1%;
+}
+.container h4
+{
+  font-weight: bolder;
+  text-align: left;
+  font-size:larger;
+  padding-left: 3%;
+}
+
+.container .Excel img{
+  height:auto ;
+  max-width:90%;
+  border-radius: 10px;
+  margin: 5% 5% 5% 5%;
+  padding:1% 1% 1% 1%;
+}
+.custom-file-up
+{
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+  visibility:hidden;
+  display: hidden;
+}
+.custom-file-label
+{
+  border: 1px solid #1eff00;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color:rgba(29, 46, 11, 0.686);
+  border-radius: 5px;
+}
+
+.submit
+{
+  border: 2px solid #1eff00;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: larger;
+  font-weight: bold;
+  background-color:rgb(5, 46, 53);
+  border-radius: 10px;
+}
