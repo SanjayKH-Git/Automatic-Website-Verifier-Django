@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f536d99-e8ab-4ca7-ab9b-b8d063ec5e95" name="Default Changelist" comment="">
+    <list default="true" id="1f536d99-e8ab-4ca7-ab9b-b8d063ec5e95" name="Default Changelist" comment="views">
+      <change beforePath="$PROJECT_DIR$/.idea/Automatic-Website-Verifier-Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Automatic-Website-Verifier-Django.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoWebsiteVerifier/AutoWebVerifierApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoWebsiteVerifier/AutoWebVerifierApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoWebsiteVerifier/templates/Verified.html" beforeDir="false" afterPath="$PROJECT_DIR$/AutoWebsiteVerifier/templates/Verified.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -34,6 +36,32 @@
       <option name="presentableId" value="Default" />
       <updated>1631362987192</updated>
     </task>
+    <task id="LOCAL-00001" summary="views">
+      <created>1631367528058</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631367528058</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="views" />
+    <option name="LAST_COMMIT_MESSAGE" value="views" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="280" y="0" key="CommitChangelistDialog2" timestamp="1631367579013">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="280" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1631367579013" />
+    <state x="217" y="20" width="998" height="708" key="SettingsEditor" timestamp="1631374756976">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="217" y="20" width="998" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1631374756976" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1631367615933">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1631367615933" />
   </component>
 </project>
