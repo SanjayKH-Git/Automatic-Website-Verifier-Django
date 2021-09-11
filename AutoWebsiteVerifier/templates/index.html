@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/styles.css' %}">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+    
+    <title>AutoWebVerifier</title>
+</head>
+
+<body>
+    <div>
+        <div class="header">
+            <h1><b>Automatic Website Verifier</b></h1>
+            <h3>Verify Your Huge WebLinks Collection instantly</h3>
+        </div>
+        
+        <div class="container">   
+                     
+            <div class="Rules">
+                <h4>Rules</h4>                
+                <ol>
+                    <li>You can Verify and Update Website Links contained Excel File </li>
+                    <li>You Should Upload <strong style="color: rgb(5, 79, 26); font-size: large;">.xlsx </strong> File
+                    </li>
+                    <li>Excel File Should be in following format</li>
+                </ol>
+            </div>
+
+            <div class="Excel">
+                <div style="width: 150px; float:right; height:100px; margin:10px">
+                    <img width="150px" height="100px" src="{% static 'Media/xlsx_icon.png' %}"/>
+                 </div>
+               <a class="Exc-Before" href="{% static 'Media/Excel_Before.png' %}"> <img src="{% static 'Media/Excel_Before.png' %}"/></a>
+            </div>
+            {% block content %}
+            <form method="post" enctype="multipart/form-data" action="VerifyWeb">
+                {% csrf_token %}
+                <input type="file" id="file-upload" class="custom-file-up" name="file-upload" value="Upload File (.xlsx)" accept=".xlsx" required/>
+
+                <label for="file-upload" class="custom-file-label">
+                    Upload File (.xlsx)
+                </label>
+                
+                <button class="submit" type="submit" value="VerifyWeb">Verify</button>
+            </form>
+            {% endblock %}
+            
+        </div>
+    </div>
+</body>
+
+</html>
