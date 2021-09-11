@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f536d99-e8ab-4ca7-ab9b-b8d063ec5e95" name="Default Changelist" comment="" />
+    <list default="true" id="1f536d99-e8ab-4ca7-ab9b-b8d063ec5e95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/AutoWebsiteVerifier/WebsiteVerifyData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/AutoWebsiteVerifier/WebsiteVerifyData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoWebsiteVerifier/WebsiteVerifyData_Crvt6Ot.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoWebsiteVerifier/WebsiteVerifyData_fSBpCWm.xlsx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +22,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
